@@ -1,0 +1,33 @@
+# Estrutura do Projeto
+- src
+  - modules
+    - pokemon
+      - dtos
+        - ability.dto.ts
+        - move.dto.ts
+        - named-api-resource.dto.ts
+        - pokemon.dto.ts
+        - stat.dto.ts
+        - type.dto.ts
+        - version-group-detail.dto.ts
+      - pokemon.controller.ts
+      - pokemon.module.ts
+      - pokemon.service.ts
+  - app.controller.spec.ts
+  - app.controller.ts
+  - app.module.ts
+  - app.service.ts
+  - main.ts
+- .eslintrc.js
+- .gitignore
+- .prettierrc
+- database.sqlite
+- estrutura_projeto.txt
+- export-tree.ps1
+- nest-cli.json
+- package.json
+- README.md
+- tsconfig.build.json
+- tsconfig.build.tsbuildinfo
+- tsconfig.json
+- yarn.lock
